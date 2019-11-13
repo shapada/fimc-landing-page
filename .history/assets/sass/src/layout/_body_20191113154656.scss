@@ -1,0 +1,58 @@
+body {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-membership-benefits {
+    display: flex;
+    padding: 250px 0;
+
+    .benefits-content {
+        color: #333333;
+        height: 390px;
+        padding: 300px 0;
+        align-items: flex-start ;
+
+        @include make-col-ready;
+     
+        @include media-breakpoint-up(md) {
+            @include make-col(4);
+        }
+    }
+
+    .benefits-icons {
+        @include make-col-ready;
+
+        @include media-breakpoint-up(md) {
+            @include make-col(8);
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+    
+            li {
+                display: inline-block !important;
+                margin-right: 50px;
+    
+                &:last-child {
+                    margin-right: 0;
+                }
+    
+                & img {
+                    width: 90px;
+                    height: 90px;
+                }
+    
+                & h5 {
+                    //display: inline-block;
+                }
+            }
+        }
+
+    
+    }
+    
+}
+
+

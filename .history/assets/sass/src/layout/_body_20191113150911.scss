@@ -1,0 +1,24 @@
+body {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-membership-benefits {
+    color: #333333;
+    height: 390px;
+    padding: 300px 0;
+
+    ul.benefits-icons {
+        list-style-type: none;
+        & li {
+            display: inline-block;
+
+            & h5 {
+                //display: inline-block;
+            }
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 110px;
+}
+
+.here-to-help {
+    font-size: 22px;
+
+    & .phone-number {
+        font-size: 28px;
+        color: #1C4588;
+    }
+}
+
+.jumbotron-fluid {
+    background: url('../images/beach-car-child.jpg') no-repeat center center fixed;
+    height: 410px;
+    background-position: bottom 10px right;
+}

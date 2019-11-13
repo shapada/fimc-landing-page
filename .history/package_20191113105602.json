@@ -1,0 +1,12 @@
+{
+  "name": "fimc-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.3"
+  }
+}

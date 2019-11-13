@@ -1,0 +1,18 @@
+.navbar {
+    height: 110px;
+
+    & .ha-logo {
+        width: 180px;
+        height: 64px;
+    }
+
+    & .here-to-help {
+        font-size: 18px;
+
+        & .phone-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1C4588;
+        }
+    }
+}

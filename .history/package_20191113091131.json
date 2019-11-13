@@ -1,0 +1,14 @@
+{
+  "name": "fimc-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "node-sass --watch assets/sass/main.scss -o assets/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.23.3"
+  }
+}

@@ -169,6 +169,13 @@ nav .here-to-help .phone-number {
   border: 1px solid #999999;
   border-radius: 3px;
   background-color: #FFFFFF;
+  padding: 0 5px;
+  /* Here's the code we need */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
 }
 #our-plans .check-availability .plans {
   display: flex;

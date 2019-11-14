@@ -1,0 +1,13 @@
+#stay-in-touch {
+    height: 80px;
+    background-color: rgba(28,69,136,0.85);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+    .email-address {
+        height: 40px;
+        width: 300px;
+    }
+}

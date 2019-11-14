@@ -1,0 +1,81 @@
+#our-plans {
+    padding-top: 60px;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        max-width: 800px;
+    }
+
+    h2 {
+        color: #1C4588;
+    }
+
+    .check-availability {
+        margin-top: 30px;
+        box-sizing: border-box;	
+        display: flex;
+        flex-direction: column;
+        height: 428px;	
+        width: 1256px;	
+        border: 1px solid #CFCFCF;	
+        border-radius: 3px;	
+        background-color: #FFFFFF;	
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);  
+        align-content: center; 
+        align-items: center;
+
+        .select-state {
+            box-sizing: border-box;
+            height: 89px;
+            width: 1257px;
+            border: 1px solid #CFCFCF;
+            background-color: #F1F1F1;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+
+            span {
+                font-size: 24px;
+                font-weight: bold;
+                padding: 0 24px;
+            }
+
+            img {
+                height: 47px;
+                width: 32px;
+            }
+
+            .states {
+                box-sizing: border-box;	
+                height: 40px;	
+                width: 335px;	
+                border: 1px solid #999999;	
+                border-radius: 3px;	
+                background-color: #FFFFFF;
+            }
+        }
+
+        .plans {
+            display: flex;
+
+            h2 {
+                color: #333;
+            }
+            
+            > div {
+                padding: 64px 54px;
+                
+                .plan-content {
+                    min-height: 150px;
+                }
+
+            }
+        }
+     }
+}

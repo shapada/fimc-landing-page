@@ -1,0 +1,35 @@
+.jumbotron {
+    background: url('../images/beach-car-child.jpg') no-repeat center center;
+    width: 100%;
+    background-size: 100%;
+    height: 100%;
+
+    .jumbotron-content {
+        color: #fff;
+        background-color: #1C4588;
+        max-width: 940px;
+        padding: 40px 60px;
+        border-left: 10px solid #64A1D7;
+        position: relative;
+        top: 125px;
+        z-index: 999;
+
+        h2 {
+            font-size: 34px;
+            margin-top: 0;
+        }
+
+    .jumbotron-text {
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        .jumbotron-button {
+            height: 40px;
+            width: 180px;
+            background-color: #83BD00;
+            border-radius: 20px;
+            border: none;
+        }
+    }
+}

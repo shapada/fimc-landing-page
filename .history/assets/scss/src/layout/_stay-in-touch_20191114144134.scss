@@ -1,0 +1,31 @@
+#stay-in-touch {
+    height: 80px;
+    background-color: rgba(28,69,136,0.85);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+    .stay-in-touch-text {
+        font-size: 18px;
+        margin-right: 6px;
+
+        span {
+            font-weight: bold;
+            margin-right: 6px;
+        }
+        .email-address {
+            height: 40px;
+            width: 300px;
+        }
+
+        button {
+            height: 19px;	width: 52px;	color: #1C4588;	font-family: Roboto;	font-size: 14px;	font-weight: bold;	line-height: 19px;
+        }
+
+    }
+    
+
+    
+    
+    
+}

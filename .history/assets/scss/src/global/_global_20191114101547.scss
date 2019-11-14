@@ -1,0 +1,16 @@
+body {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}  
+
+section {
+    display: flex;
+    padding: 0 90px;
+    margin: 0 auto;
+
+    &.jumbotron {
+        padding: 0;
+    }
+}

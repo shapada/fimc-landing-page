@@ -1,0 +1,39 @@
+section {
+    &.benefits {
+        padding-top: 200px;
+        justify-content: space-between;
+        display: flex;
+
+        .benefits-text {
+            color: #333333;
+            height: 390px;
+
+            h2 {
+                font-size: 34px;
+            }
+        }
+
+        .benefits-icons {
+            flex: 7;
+            ul {
+                list-style-type: none!important;
+
+                li {
+                    display: inline-block;
+                    margin-right: 50px;
+        
+                    &:last-child {
+                        margin-right: 0;
+                    }
+        
+                    & img {
+                        width: 90px;
+                        height: 90px;
+                    }
+        
+                }
+            }
+        }
+
+    }
+}

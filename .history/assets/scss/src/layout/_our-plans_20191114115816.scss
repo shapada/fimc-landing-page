@@ -1,0 +1,44 @@
+#our-plans {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    align-items: center;
+
+    p {
+        max-width: 800px;
+        flex: 1;
+        flex-basis: 0 0 100%;
+    }
+
+    > h2 {
+        flex: 1;
+        color: #1C4588;
+    }
+
+    .check-availability {
+        margin-top: 30px;
+        box-sizing: border-box;	
+        height: 428px;	
+        width: 1256px;	
+        border: 1px solid #CFCFCF;	
+        border-radius: 3px;	
+        background-color: #FFFFFF;	
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);   
+
+        > .select-state {
+            box-sizing: border-box;
+            height: 89px;
+            width: 1257px;
+            border: 1px solid #CFCFCF;
+            background-color: #F1F1F1;
+            vertical-align: middle;
+            display: flex;
+            align-items: center;
+            
+            flex: 1;
+        }
+     }
+}

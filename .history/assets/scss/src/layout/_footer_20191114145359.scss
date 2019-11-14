@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    color: #fff;
+    background-color: #1C4588;
+    padding-top: 30px;
+
+    .contact-info {
+        margin-bottom: 15px;
+    }
+}

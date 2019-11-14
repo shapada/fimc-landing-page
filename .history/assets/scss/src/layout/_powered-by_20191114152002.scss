@@ -1,0 +1,17 @@
+#powered-by {
+    padding: 60px 0;
+    //padding-bottom: 60px;
+    justify-content: space-around;
+    align-items: center;
+    .powered-by-content {
+        font-size: 20px;
+        line-height: 32px;
+        width: 938px;
+    }
+
+    .powered-by-heading {
+        img {
+            height: 42px;	width: 132px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#our-plans {
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    p {
+        max-width: 800px;
+    }
+
+    font-size: 20px;
+
+    > h2 {
+        color: #1C4588;
+    }
+
+    .check-availability {
+        box-sizing: border-box;	height: 428px;	width: 1256px;	border: 1px solid #CFCFCF;	border-radius: 3px;	background-color: #FFFFFF;	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.
+    }
+}
